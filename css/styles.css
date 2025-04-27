@@ -11201,3 +11201,31 @@ body {
 .footer {
   padding: 5rem 0;
 }
+
+/* Плавность текста */
+
+.text-animation {
+  opacity: 0;
+  transform: translateY((100%));
+  transition: all 1s;
+}
+
+.text-animation.show {
+  opacity: 1;
+  transition: all 1s;
+  transform: translateY(0%);
+}
+
+/* слайд изображения */
+
+.image-animation {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.image-animation.show {
+  opacity: 1;
+  transition: all 1.5s;
+  transform: translateX(0%);
+}
