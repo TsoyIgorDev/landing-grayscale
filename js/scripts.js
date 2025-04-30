@@ -75,13 +75,13 @@ document.addEventListener('DOMContentLoaded', function () {
     //     });
     // }
 
-    let options = { threshold: [0.5] };
-    let observer = new IntersectionObserver(onEntry, options);
-    let elements = document.querySelectorAll('.animate');
+    // let options = { threshold: [0.5] };
+    // let observer = new IntersectionObserver(onEntry, options);
+    // let elements = document.querySelectorAll('.animate');
 
-    for (let elm of elements) {
-        observer.observe(elm);
-    }
+    // for (let elm of elements) {
+    //     observer.observe(elm);
+    // }
 
 
     //Вызов функции во время загрузки, скролла и ресайза
